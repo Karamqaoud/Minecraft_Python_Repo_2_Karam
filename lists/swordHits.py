@@ -7,5 +7,5 @@ time.sleep(60)
 
 blockHits = mc.events.pollBlockHits()
 
-blockHitsLength = blockHits
+blockHitsLength = len(blockHits)
 mc.postToChat("Your score is " + str(blockHitsLength))
